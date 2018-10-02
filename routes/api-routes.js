@@ -21,7 +21,7 @@ module.exports = function(app){
         })
     });
     app.put('/api/todoList',function(req,res){
-        db.TodoList.findOneAndUpdate({todoList: todoList}, {$set:{todoList: req.body.todoList}})
+        db.TodoList.findOneAndUpdate({_id: req.body._id}, {$set:{todoList: req.body.todoList}})
         .then(function(todolist){
             res.json(todolist);
         })

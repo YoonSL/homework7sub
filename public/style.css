@@ -43,17 +43,16 @@ header{
 }
 .checkTodo{
     position:relative;
-    left: -183px;
-    display: block;
+    left: -138px;
 }
 .deleteTodo{
     position:relative;
-    left: 195px;
+    left: 183px;
     bottom: 32px;
 }
 .textTodo{
     position:relative;
-    left: -138px;
+    left: -90px;
     bottom: 16px;
 }
 .fa-check-square{
@@ -63,7 +62,7 @@ header{
 
 #add{
     position:relative;
-    left:20px;
+    left:27px;
     width:300px;
     height:19px;
     margin-left:15px;
@@ -130,7 +129,7 @@ header{
     
     #add{
         position:relative;
-        left:3px;
+        left:12px;
         width:300px;
         height:19px;
         margin-left:15px;
@@ -151,16 +150,16 @@ header{
     }
     .checkTodo{
         position:relative;
-        left: -183px;
+        left: -163px;
     }
     .deleteTodo{
         position:relative;
-        left: 139px;
+        left: 147px;
         bottom: 32px;
     }
     .textTodo{
         position:relative;
-        left: -138px;
+        left: -117px;
         bottom: 16px;
     }
     
