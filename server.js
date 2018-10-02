@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(express.static('public'));
 
-mongoose.connect('mongodb://localhost/todoList', {useNewUrlParser: true});
+mongoose.connect('mongodb://yoonsub:5814tatter@ds121163.mlab.com:21163/heroku_gdcbxq13', {useNewUrlParser: true});
 
 require('./routes/api-routes')(app);
 
